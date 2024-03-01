@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mm, im, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+    */
+    font-size: 1em;
+
+    /* Para deixar em negrito: lighter normal bold bolder */
+    /*font-weight: normal;*/
+
+    /* Para deixar em itálico: italic normal*/
+    /*font-style: italic;*/
+
+    /* Para deixar sublinhado: underline*/
+    /*text-decoration: underline;*/
+}
+
+h1{
+    /*shorthand font
+    - font-style -> font-weight -> font-size -> font-family
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3em;
+    font-style: italic;
+    */
+    font: italic bold 3em 'Times New Roman', Times, serif
+}
+
+    h2{
+        font: bold 2em 'Times New Roman', Times, serif
+    }
